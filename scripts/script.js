@@ -25,16 +25,4 @@
       }
     });
   }
-
-  const swiper = new Swiper(root.querySelector('.es-swiper1'), {
-    direction: 'horizontal',
-    loop: true,
-    pagination: {
-      el: root.querySelector('.es-swiper1-pagination'),
-    },
-    navigation: {
-      nextEl: root.querySelector('.es-swiper1-button-next'),
-      prevEl: root.querySelector('.es-swiper1-button-prev'),
-    },
-  });
 })();
